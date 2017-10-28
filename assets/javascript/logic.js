@@ -26,6 +26,7 @@ $(document).ready(function() {
 		console.log("-------------------");
 		initalize();
 
+	$("#search-button").on("click", function() {
 		var pokemon = $("#pokemon").val().trim(); //if searching single pokemon data
 		var color = $("#colors").val();
 		var type = $("#type").val();
